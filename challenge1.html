@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day22Webpage</title>
+</head>
+<body>
+    <style>
+        *{
+            padding: 0;
+            border: 0;
+            box-sizing: border-box;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        button:hover{
+            background-color: beige;
+        }
+        .sale{
+            position:absolute;
+            background-color: red;
+            letter-spacing: 1.5px;
+            width:60px;
+            text-align: center;
+            left: -20px;
+            top:-25px;
+            padding: 10px 10px;
+        }
+    </style>
+    <div class="class1" style="position:relative;border: 5px solid black;width: 50%;height: 100%;align-self: center;margin-top: 50px;margin-left: 400px;margin-right: 100px;align-items: center;">
+        <h1 style="text-align: center;background-color: rgb(171, 210, 245);padding-top:-10px ;"><b>Welcome to the Page!</b></h1>
+        <p class="sale">SALE</p>
+        <div class="cont2" style="display: flex;width:100%;column-gap: 20px;">
+            <img src="chair1.jpeg" style="width: 33%;padding-bottom: 10px;padding-left: 5px">
+
+            <div class="cont2-1" style="width:33%;padding-bottom: 10px;">
+                <h4>1143$</h4><br/>
+                <p>>Welcome to the Page!>Welcome to the Page!>Welcome to the Page!>Welcome to the Page!>Welcome to the Page!>Welcome to the Page!>Welcome to the Page!</p>
+                <br/><a class="link1" style="text-decoration: none;" href="#">Link for documentation-></a>
+                <div class="cont1" style="width:50%;height: 30px;display: flex;column-gap:10px">
+                    <div class="c1" style="width: 16%;height:100%;background-color: red;"></div>
+                    <div class="c1" style="width: 16%;height:100%;background-color: blue;"></div>
+                    <div class="c1" style="width: 16%;height:100%;background-color: green;"></div>
+                    <div class="c1" style="width: 16%;height:100%;background-color: yellow;"></div>
+                    <div class="c1" style="width: 16%;height:100%;background-color: pink;"></div>
+                    <div class="c1" style="width: 16%;height:100%;background-color: orange;"></div>
+                </div>
+            </div>
+
+            <div class="cont2-2" style="width: 33%;padding-right: 5px;">
+                <h2><b>PRODUCT DETAILS</b></h2>
+                <ul style="padding-left: 20px;">
+                    <li>Product name</li>
+                    <li>Product cost</li>
+                    <li>Product name</li>
+                    <li>Product name</li>
+                    <li>Product name</li>
+                </ul>
+            </div>
+        </div>
+
+        <button style="align-items: center ;width: 100%;height:25px;background-color: black;color:white;" onclick="alert('Hello!')">Buy Now</button>
+    </div>
+</body>
+</html>
